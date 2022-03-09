@@ -1,0 +1,85 @@
+
+/* --------------------------General styles------------------------------------ */
+
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;600;700;900&display=swap');
+
+:root {
+    --dark-one: #333;
+    --dark-two: #7a7a7a;
+    --main-color: #784cfb;
+    --light-two: #f9fafb;
+    --light-three: #f6f7fb;
+
+}
+
+*, *::before, *::after {
+    margin: 0; 
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+body, button, input, textarea {
+    font-family: 'Poppins', sans-serif;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+img {
+    width: 100%;
+}
+
+.container {
+    position: relative;
+    z-index: 5;
+    max-width: 92rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+}
+
+
+/* ----------------------------Header--------------------------------------- */
+header{
+    width: 100%;
+    background-color: var(--light-three);
+    overflow: hidden;
+}
+
+nav {
+    width: 100%;
+    position: relative;
+    z-index: 50;
+}
+
+nav .container {
+    display: flex;
+    justify-content: space-between;
+    height: 6rem;
+    align-items: center;
+}
+
+.logo {
+    width: 80px;
+    display: flex;
+    align-items: center;
+
+}
+
+.links ul {
+    display: flex;
+}
+
+.links a {
+    display: inline-block;
+    padding: 0.9rem 1.2rem;
+    color: var(--dark-one);
+    font-size: 1.05rem;
+    text-transform: uppercase;
+    font-weight: 500;
+}
