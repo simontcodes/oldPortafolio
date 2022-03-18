@@ -16,7 +16,7 @@
 <body>
     <main>
 
-        <header>
+        <header id="header">
             <div class="overlay overlay-lg">
                 <img src="./img/shapes/square.png" class="shape square" alt="">
                 <img src="./img/shapes/circle.png" class="shape circle" alt="">
@@ -38,25 +38,25 @@
                     <div class="links">
                         <ul>
                             <li>
-                                <a href="#">Home</a>
+                                <a href="#header">Home</a>
                             </li>
                             <li>
-                                <a href="#">Services</a>
+                                <a href="#services">Services</a>
                             </li>
                             <li>
-                                <a href="#">Portafolio</a>
+                                <a href="#portafolio">Portafolio</a>
                             </li>
                             <li>
-                                <a href="#">About</a>
+                                <a href="#about">About</a>
                             </li>
                             <li>
-                                <a href="#">Testimonials</a>
+                                <a href="#testimonials">Testimonials</a>
                             </li>
                             <li>
-                                <a href="#">Contact</a>
+                                <a href="#contact">Contact</a>
                             </li>
                             <li>
-                                <a href="#" class="active">Hire me</a>
+                                <a href="#hireme" class="active">Hire me</a>
                             </li>
                         </ul>
                     </div>
@@ -80,7 +80,7 @@
             </div>
         </header>
         <!-- -------------------------services--------------------- -->
-        <section class="services section">
+        <section class="services section" id="services">
             <div class="container">
                 <div class="section-header">
                     <h3 class="title" data-title="What I Do">Services</h3>
@@ -129,7 +129,7 @@
 
         <!-- ------------------------------Portafolio------------------------- -->
 
-        <section class="portafolio section">
+        <section class="portafolio section" id="portafolio">
             <div class="background-bg">
                 <div class="overlay overlay-sm">
                     <img src="./img/shapes/half-circle.png" class="shape half-circle1" alt="">
@@ -274,7 +274,7 @@
         </section>
 
         <!-- --------------------------About-------------------------------- -->
-        <section class="about section">
+        <section class="about section" id="about">
             <div class="container">
                 <div class="section-header">
                     <h3 class="title" data-title="Who Am I">About Me</h3>
@@ -454,7 +454,7 @@
 
         <!-- ------------------------Testimonials----------------------------------------- -->
 
-        <section class="testimonials section">
+        <section class="testimonials section" id="testimonials">
             <div class="container">
                 <div class="section-header">
                     <h3 class="title" data-title="What People Say">Testimonials</h3>
@@ -580,7 +580,7 @@
 
         <!-- ------------------------------contact------------------------------------  -->
 
-        <section class="contact">
+        <section class="contact" id="contact">
             <div class="container">
                 <div class="contact-box">
                     <div class="contact-info">
@@ -651,7 +651,7 @@
 
         <!-- ----------------------------Hire Me-------------------------------------------- -->
 
-        <section class="hireme">
+        <section class="hireme" id="hireme">
             <div class="container">
                 <h3 class="title" data-title="Hire Me">Let's talk about a project</h3>
 
@@ -666,6 +666,127 @@
         </section>
 
     </main>
+
+    <!-- -----------------------------Footer----------------------------------------------- -->
+
+    <footer class="footer">
+
+        <div class="container">
+
+            <div class="grid-4">
+                <div class="grid-4-col footer-about">
+                    <h3 class="title-sm">About</h3>
+                    <p class="text">Lorem ipsum dolor sit amet consectetur adipisicing elit. Autem, amet?</p>
+                </div>
+
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Links</h3>
+                    <ul>
+                        <li>
+                            <a href="#services">Services</a>
+                        </li>
+                        <li>
+                            <a href="#portafolio">Portafolio</a>
+                        </li>
+                        <li>
+                            <a href="#about">About</a>
+                        </li>
+                        <li>
+                            <a href="#testimonials">Testimonials</a>
+                        </li>
+                        <li>
+                            <a href="#contact">Contact</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-4-col footer-links">
+                    <h3 class="title-sm">Services</h3>
+                    <ul>
+                        <li>
+                            <a href="#">Web Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Web Dev</a>
+                        </li>
+                        <li>
+                            <a href="#">App Design</a>
+                        </li>
+                        <li>
+                            <a href="#">Marketing</a>
+                        </li>
+                        <li>
+                            <a href="#">UI Design</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="grid-4-col footer-newsletter">
+                    <h3 class="title-sm">Subscribe</h3>
+                    <p class="text">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorem, repellat.</p>
+                    <div class="footer-input-wrap">
+                        <input type="email" class="footer-input" placeholder="Email">
+                        <a href="#" class="input-arrow">
+                            <i class="fas fa-angle-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+
+            <div class="bottom-footer">
+
+                <div class="copyright">
+                    <p class="text">
+                        Copyright&copy;2022 All rights reserved | Made by <span>simon.codes</span>
+                    </p>
+                </div>
+
+                <div class="followme-wrap">
+
+                    <div class="followme">
+                        <h3>Follow Me</h3>
+                        <span class="footer-line"></span>
+                        <div class="social-media">
+                            <a href="#">
+                                <i class="fab fa-github"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-facebook-f"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-instagram"></i>
+                            </a>
+                            <a href="#">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </div>
+                    </div>
+
+                    <div class="back-btn-wrap">
+                        <a href="#" class="back-btn">
+                            <i class="fas fa-chevron-up"></i>
+                        </a>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+
+    </footer>
+
+
+
+
+
+
+
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
     <script src="./js/isotope.pkgd.min.js"></script>
     <script src="https://unpkg.com/swiper@8/swiper-bundle.min.js"></script>
